@@ -195,6 +195,7 @@ DEPENDENCIES
   authority (~> 2.10.0)
   devise (= 3.0.0.rc)
   knoda_core!
+  mandrill_mailer
   paperclip (~> 4.1.1)
   pg (= 0.17.1)
   rails (= 4.1.0)
