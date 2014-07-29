@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def index
-    redirect_to: 'http://www.knoda.com'
+    redirect_to 'http://www.knoda.com'
   end
 
   def show
