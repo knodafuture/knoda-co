@@ -7,6 +7,7 @@ gem 'devise', '3.0.0.rc'
 gem 'paperclip', '~> 4.1.1'
 gem 'sidekiq', '3.0.2'
 gem 'mandrill_mailer'
+gem 'searchkick', '~> 0.7.6'
 
 gem 'knoda_core', :git => "https://knoda-build:Xtra5efeKn0dafuture@github.com/knodafuture/knoda_core.git", :branch => 'master'
 # Use this to test local core engine changes
