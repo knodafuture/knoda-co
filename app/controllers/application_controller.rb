@@ -8,6 +8,9 @@ class ApplicationController < ActionController::Base
   end
 
   def show
+    if params[:slug] == 'zAJyr'
+      raise ActionController::RoutingError.new('Not Found')
+    end
     su = ShortUrl.where(:slug => params[:slug]).first
     if su
       redirect_to su.long_url
